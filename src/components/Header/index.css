@@ -1,0 +1,111 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.nav-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #212121;
+  width: 100%;
+}
+.light {
+  background-color: #f4f4f4;
+}
+.theme-button {
+  border: none;
+  outline: none;
+}
+.Nav-mobile-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .Nav-mobile-icons {
+    width: 15%;
+  }
+}
+.website-logo {
+  width: 100px;
+  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 200px;
+    height: 60px;
+  }
+}
+.themes-icon {
+  height: 15px;
+  width: 15px;
+  margin-top: 5px;
+  border: transparent;
+}
+@media screen and (min-width: 768px) {
+  .themes-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+.profile-image {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 40px;
+    height: 40px;
+  }
+}
+.logout-button {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+  background-color: transparent;
+}
+.color-button {
+  color: #00306e;
+  border: 1px solid #00306e;
+}
+@media screen and (min-width: 768px) {
+  .logout-button {
+    height: 20px;
+    width: 70px;
+  }
+}
+.logout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.cancel-button {
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 80px;
+  font-size: 13px;
+  color: #00306e;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.confirm-button {
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 80px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #4f46e5;
+  margin-left: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,78 @@
+.side-app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #212121;
+  padding: 20px;
+  width: 100%;
+}
+.light {
+  background-color: #f4f4f4;
+}
+.side-left-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-self: flex-start;
+  height: 100vh;
+}
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .contact-us-container {
+    width: 90%;
+  }
+}
+.con-heading {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #fff;
+  text-align: left;
+}
+
+.lightHeading {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.icon-container-list {
+  display: flex;
+}
+
+.icon-image {
+  margin: 3px;
+  height: 15px;
+  width: 15px;
+}
+@media screen and (min-width: 768px) {
+  .icon-image {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+  }
+}
+.sub-desc {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: roboto;
+  color: #fff;
+  text-align: left;
+}
+.dark-description {
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 17px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,45 @@
+.item-app-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.icon-image {
+  height: 15px;
+  color: #ffffffff;
+}
+.dark-image {
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .icon-image {
+    height: 25px;
+  }
+}
+.main-menu-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.dark-color {
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .main-menu-heading {
+    font-weight: 800;
+    font-size: 20px;
+  }
+}
+.links {
+  list-style-type: none;
+  margin-top: 1;
+  padding-top: 0;
+}
+.back-ground {
+  background-color: #ff0b37;
+}
+.menu-links {
+  display: flex;
+  align-items: center;
+}

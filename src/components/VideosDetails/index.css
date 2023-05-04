@@ -1,0 +1,110 @@
+.react-player-container {
+  width: 98%;
+  margin-top: 20px;
+}
+.play-and-video-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.description-container {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+  width: 95%;
+  margin-top: 20px;
+}
+.background-color {
+  color: #ffffff;
+}
+.dynamic-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-top: 0;
+  padding-top: 0;
+}
+.left-dynamic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.le-da-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #212121;
+}
+.background-color-des {
+  color: #ffffff;
+}
+.right-dynamic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.null {
+  border: none;
+  font-family: 'Roboto';
+  font-weight: '500';
+  font-size: 12px;
+  margin-right: 4px;
+}
+.dis-null {
+  border: none;
+  font-family: 'Roboto';
+  font-weight: '500';
+  font-size: 12px;
+  margin-right: 4px;
+}
+.save-null {
+  border: none;
+  font-family: 'Roboto';
+  font-weight: '500';
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.like-button {
+  color: #4f46e5;
+}
+
+.dislike-button {
+  color: #4f46e5;
+}
+.save-button {
+  color: #4f46e5;
+}
+.like-class {
+  color: #4f46e5;
+}
+.dis-like {
+  color: #4f46e5;
+}
+.save {
+  color: #4f46e5;
+}
+.hr-line {
+  width: 100%;
+  border: 3px solid #4f46e5;
+}
+.bottom-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.bottom-image {
+  width: 60px;
+  height: 60px;
+}
+.small-heading {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  color: #ff0b37;
+  margin-left: 20px;
+}

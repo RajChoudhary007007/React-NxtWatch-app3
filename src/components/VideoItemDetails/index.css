@@ -1,0 +1,58 @@
+.save-video-item {
+  list-style-type: none;
+  width: 100%;
+}
+.save-video-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .save-video-item-details {
+    flex-direction: row;
+  }
+}
+
+.thumbnail-image {
+  height: 20vh;
+}
+.details-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 10px;
+}
+.details-back {
+  color: #fff;
+}
+.chanel-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 10px;
+}
+.chanel-heading-back {
+  color: #fff;
+}
+.sub-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #383838;
+  margin-left: 10px;
+}
+.sub-description-back {
+  color: #fff;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #383838;
+  margin-left: 10px;
+}
+.description-back {
+  color: #fff;
+}

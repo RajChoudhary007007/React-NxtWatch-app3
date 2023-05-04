@@ -1,0 +1,117 @@
+.home-app-container {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  width: 100%;
+}
+.home-side-left {
+  width: 20%;
+  border: 1px solid red;
+}
+.main-spinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-side-right {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 80%;
+  border: 1px solid red;
+  background-color: #f4f4f4;
+}
+.black-background {
+  background-color: #212121;
+}
+
+.side-right-banner-container {
+  display: flex;
+  width: 100%;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  height: 250px;
+  margin-top: 20px;
+  display: flex;
+  width: 93%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+.banner-logo {
+  width: 15%;
+}
+.banner-heading {
+  width: 40%;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.banner-button {
+  border: 2px solid #94a3b8;
+  background-color: transparent;
+  border-radius: 5px;
+  height: 50px;
+  width: 15%;
+  cursor: pointer;
+}
+.close-button {
+  border: none;
+  background-color: #ffffff;
+  align-self: flex-start;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.search-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.banner-button {
+  font-size: 13px;
+  font-family: 'Roboto';
+  width: 100px;
+  height: 27px;
+}
+.user-search {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 35px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #94a3b8;
+  width: 60%;
+  margin-top: 20px;
+}
+.search-button {
+  border: 1px solid #94a3b8;
+  background-color: #ffffff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 35px;
+  width: 60px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.home-video-container {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 30px;
+}
+@media screen and (min-width: 768px) {
+  .home-video-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    max-width: 1140px;
+  }
+}
